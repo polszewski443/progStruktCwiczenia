@@ -16,7 +16,7 @@ int main()
   else
     printf ("Nie wprowadziles 3 liczb c.!\n");
 
-  if (czyP == 1)
+  if (czyP)
   {
     if ((a >= b) && (a >= c))
     printf("Najwieksza z wartosci tych liczb to: %d", a);

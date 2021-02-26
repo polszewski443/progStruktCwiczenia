@@ -16,7 +16,7 @@ int main()
   else
     printf ("Nie wprowadziles trzech wspolczynnikow rownania kwadratowego!\n");
 
-  if (czyP == 1)
+  if (czyP)
   {
     delta = b * b - 4 * a * c;
     printf("Delta = %f\n", delta);

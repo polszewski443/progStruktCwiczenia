@@ -1,4 +1,0 @@
-zad2.6
-Ponizsza petla przyjmuje dla zmiennej wartosc poczatkowa wartosc rowna 36 i nastepnie
-dzieli ta wartosc tak dlugo, az nie bedzie ona wieksza od 0. Kazdy podzial wyswietlany
- jest w konsoli instrukcja printf, przy czym zachowany jest odstep trzech spacji od lewego marginesu na skutek formatowania %3d. 

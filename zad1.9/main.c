@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int min(int x, int y);
-
 int main()
 {
    int x, y;

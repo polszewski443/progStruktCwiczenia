@@ -1,12 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int funkcja()
-{
-   int *wsk=(int*)malloc(sizeof(int));
-   return wsk;
+double* funkcja(){
+
+    return malloc(sizeof(double));
+
 }
+
+
 int main()
 {
+
+    printf("%I64d\n", sizeof(double));
+    printf("%I64d\n", sizeof(double *));
+
+    printf("%p\n", funkcja());
     return 0;
 }
